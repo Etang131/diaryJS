@@ -1,0 +1,66 @@
+body {
+  font-family: fantasy;
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
+.title {
+  color: royalblue;
+  font-size: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.entry-textbox {
+  background-color: bisque;
+  border-radius: 25px;
+  color: black;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-top: 2vh;
+  height: 15vh;
+  width: 800px;
+}
+
+.button {
+  background-color: paleturquoise;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  padding: 5px 16px;
+  outline: none;
+  margin-top: 1vh;
+}
+
+#entries {
+  background: lightcoral;
+  color: black;
+  padding: 2em;
+  border: unset;
+  border-radius: 25px;
+  margin-top: 3vh;
+  width: 600px;
+}
+
+.single-entry {
+  font-size: 1.5rem;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.display-entry-button {
+  background-color: peru;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 15px;
+  margin: 0 5px;
+}
